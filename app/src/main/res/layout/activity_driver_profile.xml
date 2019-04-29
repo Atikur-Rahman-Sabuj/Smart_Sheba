@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverProfile">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="290dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="@drawable/gradientbackground"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="45dp"
+                        app:cardCornerRadius="45dp">
+
+                        <ImageView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/th" />
+
+
+                    </android.support.v7.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/drivername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+
+                        android:textColor="#fff"
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                android:stretchColumns="1">
+
+
+
+                <TableRow>
+
+                    <TextView
+
+
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:layout_width="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+
+
+                        android:text="Present Address"
+                        android:textColor="#000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/presentaddress"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginLeft="10dp"
+
+
+                        android:padding="5dp"
+                        android:textColor="#000" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Permanent Address"
+                        android:textColor="#000"
+
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/permantaddress"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+
+
+                        android:padding="5dp"
+                        android:textColor="#000" />
+                </TableRow>
+
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_column="0"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Mobile No"
+                        android:textColor="#000"
+
+
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/drivermobile"
+                        android:layout_height="wrap_content"
+                        android:layout_column="1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+
+
+                        android:padding="5dp"
+                        android:textColor="#000" />
+                </TableRow>
+
+
+                <TableRow android:layout_marginTop="40dp"
+                    android:layout_gravity="center"
+
+                    >
+
+                    <Button
+                        android:id="@+id/loginBtn"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_span="2"
+                        android:text=" Update Info"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </TableRow>
+            </TableLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

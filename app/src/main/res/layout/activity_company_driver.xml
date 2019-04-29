@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".CompanyDriver">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_marginTop="100dp"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Company Driver"
+                    android:textSize="24dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#272936"
+
+                    android:textStyle="bold"
+
+
+                    />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textColor="#272936"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_company"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="60dp"
+
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="#000"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Professional Regular Price"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+
+                    />
+
+
+
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp">
+
+                        <TextView
+                            android:paddingLeft="2dp"
+                            android:width="130dp"
+                            android:textSize="18sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Salary/Month"
+
+
+                            />
+
+                        <TextView
+                            android:width="160dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="14000 to 15500+(100/day)"
+
+
+                            />
+
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:width="130dp"
+                            android:textSize="18sp"
+                            android:paddingLeft="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Education"
+                            android:layout_weight="1"
+
+                            />
+
+
+
+                        <TextView
+                            android:textSize="13sp"
+                            android:width="160dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:paddingLeft="2dp"
+                            android:text="JSC-SSC"
+                            android:layout_weight="1"
+
+                            />
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:width="130dp"
+                            android:textSize="18sp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="2dp"
+                            android:text="Experience"
+                            android:layout_weight="1"
+
+                            />
+
+
+
+                        <TextView
+                            android:textSize="13sp"
+                            android:width="160dp"
+                            android:padding="2dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:paddingLeft="2dp"
+                            android:text="5 Year plus"
+                            android:layout_weight="1"
+
+                            />
+                    </TableRow>
+
+
+
+
+                </TableLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="60dp"
+
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="#000"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Premium  Regular Price"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+
+                    />
+
+
+
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp">
+
+                        <TextView
+                            android:paddingLeft="2dp"
+                            android:width="130dp"
+                            android:textSize="18sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Salary/Month"
+
+
+                            />
+
+                        <TextView
+                            android:width="160dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="15000 to 16000+(100/day)"
+
+
+                            />
+
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:width="130dp"
+                            android:textSize="18sp"
+                            android:paddingLeft="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Education"
+                            android:layout_weight="1"
+
+                            />
+
+
+
+                        <TextView
+                            android:textSize="13sp"
+                            android:width="160dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:paddingLeft="2dp"
+                            android:text="JSC-SSC"
+                            android:layout_weight="1"
+
+                            />
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:width="130dp"
+                            android:textSize="18sp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="2dp"
+                            android:text="Experience"
+                            android:layout_weight="1"
+
+                            />
+
+
+
+                        <TextView
+                            android:textSize="13sp"
+                            android:width="160dp"
+                            android:padding="2dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:paddingLeft="2dp"
+                            android:text="7-14 Year "
+                            android:layout_weight="1"
+
+                            />
+                    </TableRow>
+
+
+
+
+                </TableLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="#000"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Premium Plus  Regular Price"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+
+                    />
+
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp">
+
+                        <TextView
+                            android:paddingLeft="2dp"
+                            android:width="130dp"
+                            android:textSize="18sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Salary/Month"
+
+
+                            />
+
+                        <TextView
+                            android:width="160dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="17000 to 18000+(100/day)"
+
+
+                            />
+
+
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:width="130dp"
+                            android:textSize="18sp"
+                            android:paddingLeft="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Education"
+                            android:layout_weight="1"
+
+                            />
+
+
+
+                        <TextView
+                            android:textSize="13sp"
+                            android:width="160dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:paddingLeft="2dp"
+                            android:text="JSC-SSC"
+                            android:layout_weight="1"
+
+                            />
+                    </TableRow>
+
+
+                    <TableRow>
+
+                        <TextView
+                            android:width="130dp"
+                            android:textSize="18sp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="2dp"
+                            android:text="Experience"
+                            android:layout_weight="1"
+
+                            />
+
+
+
+                        <TextView
+                            android:textSize="13sp"
+                            android:width="160dp"
+                            android:padding="2dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:paddingLeft="2dp"
+                            android:text="14-25 Year"
+                            android:layout_weight="1"
+
+                            />
+                    </TableRow>
+
+
+
+
+                </TableLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="20dp"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/endingspich"
+                    android:textColor="#000"
+                    android:textSize="16dp"
+
+                    />
+                <TextView
+                    android:textColor="#000"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="14dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. Lunch: need to arrange by customer or 100 lunch bill."
+
+                    />
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. Festival bonus: Bonus will be 50% of total salary."
+
+                    />
+
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Accommodation for night stay should be arranged by customer out of Dhaka only if required. "
+
+                    />
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Working Day: 6 in a week. "
+
+                    />
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. Annual Leave: 12 Days. "
+
+                    />
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. Overtime: BDT 50/hour Over-time after 10 hours duty.  "
+
+                    />
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. Weekend and Govt. holiday duty will consider as Over-time.  "
+
+                    />
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8. Driver Demo test BDT 150   "
+
+                    />
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9. For Less than 10 hours duty Salary can be Negotiable.   "
+
+                    />
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Terms and Conditions Apply   "
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

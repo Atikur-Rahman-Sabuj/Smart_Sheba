@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OwnerDetails">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <!-- Here you can put your logo or brand name -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="120dp"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@android:color/transparent"
+
+                    android:textStyle="bold"
+                    android:text="Owner Name"
+                    android:textSize="17dp"
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+                <TextView
+                    android:id="@+id/ownersname"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+
+
+                    android:background="@android:color/transparent"
+
+
+
+
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@android:color/transparent"
+
+                    android:textStyle="bold"
+                    android:text="Working Hours"
+                    android:textSize="17dp"
+
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+                <TextView
+                    android:id="@+id/ownerworkinghours"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+
+                    android:background="@android:color/transparent"
+
+
+
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@android:color/transparent"
+
+                    android:textStyle="bold"
+                    android:text="Job Preference"
+                    android:maxLines="1"
+                    android:padding="10dp"
+                    android:textSize="17dp"
+
+                    android:textColorHint="#000" />
+
+                <TextView
+                    android:id="@+id/ownerjobreferences"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+
+                    android:background="@android:color/transparent"
+
+
+
+
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@android:color/transparent"
+
+                    android:textStyle="bold"
+                    android:text="Job Location"
+                    android:maxLines="1"
+                    android:padding="10dp"
+                    android:textSize="17dp"
+
+                    android:textColorHint="#000" />
+
+                <TextView
+                    android:id="@+id/ownerjoblocation"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+
+                    android:background="@android:color/transparent"
+
+
+
+
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@android:color/transparent"
+
+                    android:textStyle="bold"
+                    android:text="Car Name"
+                    android:textSize="17dp"
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+                <TextView
+                    android:id="@+id/ownercarname"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+
+                    android:background="@android:color/transparent"
+
+
+
+
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@android:color/transparent"
+
+                    android:textStyle="bold"
+                    android:text="Start Date"
+                    android:textSize="17dp"
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+                <TextView
+                    android:id="@+id/ownerstartdate"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+
+                    android:background="@android:color/transparent"
+
+
+
+
+
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@android:color/transparent"
+
+                    android:textStyle="bold"
+                    android:text="Offer Salary"
+                    android:textSize="17dp"
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+                <TextView
+                    android:id="@+id/owneroffersalary"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+
+                    android:background="@android:color/transparent"
+
+
+
+
+
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@android:color/transparent"
+
+                    android:textStyle="bold"
+                    android:text="Experience"
+                    android:textSize="17dp"
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+                <TextView
+                    android:id="@+id/ownerexperience"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+
+                    android:background="@android:color/transparent"
+
+
+
+
+
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="12dp"
+                    android:textStyle="bold"
+                    android:text="Accomodation"
+                    android:textSize="17dp"
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+                <TextView
+                    android:id="@+id/owneraccomodation"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+
+                    android:background="@android:color/transparent"
+
+
+
+
+
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="12dp"
+                    android:textStyle="bold"
+                    android:text="Lunch"
+                    android:textSize="17dp"
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+                    android:textColorHint="#000" />
+
+                <TextView
+                    android:id="@+id/ownerlunch"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+
+                    android:background="@android:color/transparent"
+
+
+
+
+
+                    android:maxLines="1"
+                    android:padding="10dp"
+
+
+                    android:textColorHint="#000" />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

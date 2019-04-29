@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appinventor.ai_Robi_buet38.SMARTDRIVERBD">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MemberRegistration"></activity>
+        <activity android:name=".MemberReg" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OwnerProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OwnerLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DriverProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DriverLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OwnerDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OwnerInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".About"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OwnerRegistration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DriverRegistration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CarRental"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DriverDemand"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Uberprivate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UberDriver"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CompanyDriver"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DriverInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrivateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SpalashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Smart Driver BD</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="address">Offic Address: Smart Sheba, H:04(4th floor), R:19, Sector: 11, Uttara, Dhaka-1230</string>
+
+
+    <string name="content_uber">We provide driver for Monthly, Weekly, Hourly. our Trusty driver will be dedicated for you </string>
+    <string name="content_company">We have very promising driver for your Company. We provide driver for Monthly,</string>
+
+    <string name="content_private">We provide driver for Monthly, Weekly, Hourly. our Trusty driver will be dedicated for you
+</string>
+
+    <string name="endingspich">Because we drive your car for you, we’re able to offer personal driver services far more cost-effectively than using a taxi or limo, no matter where you need us to take you.</string>
+
+    <string name="contact_content">We have professional and skilled Driver service in Dhaka city. They are Smart enough to make more profit from uber. They know how to behave well with car owner and passenger</string>
+</resources>

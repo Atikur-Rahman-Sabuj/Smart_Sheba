@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffff"
+    android:layout_height="match_parent"
+    tools:context=".DriverDemand">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_marginTop="100dp"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="On Demand"
+                    android:textSize="24dp"
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#272936"
+
+                    android:textStyle="bold"
+
+
+                    />
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textColor="#272936"
+                    android:layout_marginTop="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/content_private"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="60dp"
+
+                android:layout_marginBottom="60dp"
+
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="#000"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Professional Regular Price"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+
+                    />
+
+
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp" >
+
+                        <TextView
+                            android:background="#818D9B"
+                            android:textAlignment="center"
+                            android:paddingLeft="2dp"
+                            android:width="60dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Period"
+
+
+                            />
+
+                        <TextView
+                            android:background="#818D9B"
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Amount"
+
+
+                            />
+
+                        <TextView
+                            android:background="#818D9B"
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="Education"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+                        <TextView
+                            android:background="#818D9B"
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="Experience"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+
+                    </TableRow>
+
+
+
+
+
+
+
+
+
+                </TableLayout>
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp">
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:paddingLeft="2dp"
+                            android:width="60dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Full-Day"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="800-1000"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="SSC-HSC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="5y Plus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+
+                    </TableRow>
+
+
+
+
+
+
+
+
+
+                </TableLayout>
+
+
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp">
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:paddingLeft="2dp"
+                            android:width="60dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Half-Day"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="500-600"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="JSC-SSC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="5y Plus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+
+                    </TableRow>
+
+
+
+
+
+
+
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp">
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:paddingLeft="2dp"
+                            android:width="60dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Weekly"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="4800-6000"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="JSC-SSC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="13sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="5y Plus"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+
+                    </TableRow>
+
+
+
+
+
+
+
+
+
+                </TableLayout>
+
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="60dp"
+
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="#000"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Premium Regular Price"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+
+                    />
+
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp" android:background="#818D9B">
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:paddingLeft="2dp"
+                            android:width="60dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Period"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Amount"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="Education"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="Experience"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+
+                    </TableRow>
+
+
+
+
+
+
+
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp">
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:paddingLeft="2dp"
+                            android:width="60dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Full-Day"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="1000-1300"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="SSC-HSC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="7Y-14Y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+
+                    </TableRow>
+
+
+
+
+
+
+
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp">
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:paddingLeft="2dp"
+                            android:width="60dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Half-Day"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="600-700"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="SSC-HSC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="7y-14y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+
+                    </TableRow>
+
+
+
+
+
+
+
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp">
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:paddingLeft="2dp"
+                            android:width="60dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Weekly"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="7000-7500"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="SSC-HSC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="7y-14y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+
+                    </TableRow>
+
+
+
+
+
+
+
+
+
+                </TableLayout>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="60dp"
+
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:textColor="#000"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Premium PlusRegular Price"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+
+
+                    />
+
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp" android:background="#818D9B">
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:paddingLeft="2dp"
+                            android:width="60dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Period"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Amount"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="Education"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="Experience"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+
+                    </TableRow>
+
+
+
+
+
+
+
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp">
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:paddingLeft="2dp"
+                            android:width="60dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Full-Day"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="1400"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="JSC-SSC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="14y-25y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+
+                    </TableRow>
+
+
+
+
+
+
+
+
+
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp">
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:paddingLeft="2dp"
+                            android:width="60dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Half-Day"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="700-800"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="JSC-SSC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="14y-25y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+
+                    </TableRow>
+
+
+
+
+
+
+
+
+
+                </TableLayout>
+                <TableLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow android:layout_margin="4dp">
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:paddingLeft="2dp"
+                            android:width="60dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Weekly"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="7000-7500"
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="JSC-SSC"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+                        <TextView
+                            android:textAlignment="center"
+                            android:width="70dp"
+                            android:textSize="14sp"
+                            android:layout_weight="1"
+                            android:padding="2dp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:text="14y-25y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+
+
+
+                            />
+
+
+                    </TableRow>
+
+
+
+
+
+
+
+
+
+                </TableLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="20dp"
+
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:layout_marginTop="50dp"
+                    android:text="@string/endingspich"
+                    android:textColor="#000"
+                    android:textSize="16dp"
+
+                    />
+                <TextView
+                    android:textColor="#000"
+                    android:fontFamily="sans-serif-black"
+                    android:textSize="14dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. If driver is taken outside Dhaka then accommodation and food allowance of BDT 1000 is applicable only if the customer doesn’t provide it."
+
+                    />
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2. The Driver hired should be dropped off back to Dhaka, otherwise if dropped off outside Dhaka, then the customer needs to provide the driver with the travel allowance and also the Over-Time Charge based on the travel time back to Dhaka."
+
+                    />
+
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3. Upto BDT 5000 worth damage coverage included in this service "
+
+                    />
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4. Full day starting schedule : Between 8 AM to 11 AM, Service duration is 8 Hours. "
+
+                    />
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5. Half Day starting schedule: Between 8AM to 10 AM for morning shift and Between 3 pm to 5 pm for evening shift, Service duration is 4 Hours. "
+
+                    />
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6. Booking needs to be confirmed 24 hours before taking service.  "
+
+                    />
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7. Professional Drivers are 3-6 years experienced where as premium drivers are 7 years+ experienced. "
+
+                    />
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8. Also premium drivers are expert on driving high-end luxury cars.  "
+
+                    />
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9. Customer can change Schedule date based on driver availability.   "
+
+                    />
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10. Lunch or Food Allowance 100 BDT/Day.   "
+
+                    />
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11. Overtime charges : 100 BDT per hour (upto 10 PM). Overtime charges : 120 BDT per hour (after 10 PM).  "
+
+                    />
+
+                <TextView
+                    android:fontFamily="sans-serif-black"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Terms and Conditions Apply   "
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

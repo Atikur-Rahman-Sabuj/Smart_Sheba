@@ -339,18 +339,20 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:gravity="center">
+
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@mipmap/specialoffer"
+                            android:background="@mipmap/offerlogo"
 
-                            android:padding="10dp"/>
+                            android:padding="10dp" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textStyle="bold"
                             android:layout_marginTop="10dp"
-                            android:text="Offer"/>
+                            android:text="@string/offer_label"
+                            android:textStyle="bold" />
 
 
 
@@ -372,7 +374,7 @@
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@mipmap/medicals"
+                            android:background="@mipmap/medicallogo"
 
                             android:padding="10dp" />
 
@@ -380,7 +382,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:text="Medical"
+                            android:text="@string/medical_label"
                             android:textStyle="bold" />
 
 
@@ -397,18 +399,20 @@
                         android:layout_height="match_parent"
                         android:orientation="vertical"
                         android:gravity="center">
+
                         <ImageView
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            android:background="@mipmap/parts"
+                            android:background="@mipmap/partslogo"
 
-                            android:padding="10dp"/>
+                            android:padding="10dp" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:textStyle="bold"
                             android:layout_marginTop="10dp"
-                            android:text="Parts"/>
+                            android:text="@string/parts_label"
+                            android:textStyle="bold" />
 
 
                     </LinearLayout>
@@ -422,7 +426,106 @@
 
 
 
+            <LinearLayout
+                android:clipToPadding="false"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
 
+                    android:layout_width="95dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@mipmap/electronicslogo"
+
+                            android:padding="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="Offer"
+                            android:textStyle="bold"
+                            tools:text="@string/electronic_label" />
+
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="95dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="114dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@mipmap/hotelandrestaurentlogo"
+
+                            android:padding="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/hotel_label"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_width="95dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="2dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:background="@mipmap/parts"
+
+                            android:padding="10dp"
+                            app:srcCompat="@mipmap/otherslogo" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="@string/others_label"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
 
 
 

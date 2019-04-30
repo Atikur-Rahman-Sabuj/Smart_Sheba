@@ -15,8 +15,7 @@ public class SpalashScreen extends AppCompatActivity {
         EasySplashScreen easySplashScreen=new EasySplashScreen(SpalashScreen.this);
         easySplashScreen.withBackgroundResource(R.color.white)
 
-                .withLogo(R.drawable.smartlogo1)
-
+                .withLogo(R.drawable.logo_smart_driver)
                 .withFullScreen()
                 .withTargetActivity(MainActivity.class)
                 .withSplashTimeOut(3000);

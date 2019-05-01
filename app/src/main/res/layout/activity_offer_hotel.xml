@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".OfferHotelActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/hotel_cover" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="Offer on Hotels and Restaurents"
+                    android:textAlignment="center"
+                    android:textColor="#000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="You will get 5% to 25% discount for any hotel and restaurant food  service   from Dhaka city. we have more than 100, hotel and restaurant   from where you will get discount for product.  for more details please contact at 01 17 22555 222"
+                    android:textAlignment="center"
+                    android:textColor="#272936"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/data_offer_bottom"
+                    android:textAlignment="center"
+                    android:textColor="#272936"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

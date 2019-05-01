@@ -19,10 +19,13 @@
     <string name="endingspich">Because we drive your car for you, we’re able to offer personal driver services far more cost-effectively than using a taxi or limo, no matter where you need us to take you.</string>
 
     <string name="contact_content">We have professional and skilled Driver service in Dhaka city. They are Smart enough to make more profit from uber. They know how to behave well with car owner and passenger</string>
-    <string name="offer_label">Offer</string>
+    <string name="offer_label">Clothes</string>
     <string name="medical_label">Medical</string>
-    <string name="parts_label">Parts</string>
+    <string name="parts_label">Vehicle</string>
     <string name="electronic_label">Electronics</string>
     <string name="hotel_label">Hotel, Restaurent</string>
     <string name="others_label">Others</string>
+    <string name="title_activity_offer_dress">OfferDressActivity</string>
+    <string name="data_offer_bottom">For getting discount you have to show your discount card also known as  membership card</string>
+    <string name="title_activity_offer_medical">OfferMedicalActivity</string>
 </resources>

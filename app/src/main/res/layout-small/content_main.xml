@@ -327,18 +327,21 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <android.support.v7.widget.CardView
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:clickable="true"
 
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cvDress"
                     android:layout_width="95dp"
+
                     android:layout_height="120dp"
-                    android:layout_margin="2dp">
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center">
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="50dp"
@@ -355,15 +358,16 @@
                             android:textStyle="bold" />
 
 
-
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <android.support.v7.widget.CardView
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:clickable="true"
+                    android:id="@+id/cvMedical"
                     android:layout_width="95dp"
                     android:layout_height="120dp"
-                    android:layout_margin="2dp">
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -388,17 +392,20 @@
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <android.support.v7.widget.CardView
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:clickable="true"
+                    android:id="@+id/cvVehicle"
                     android:layout_width="95dp"
                     android:layout_height="120dp"
-                    android:layout_margin="2dp">
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center">
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="50dp"
@@ -432,18 +439,21 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <android.support.v7.widget.CardView
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:clickable="true"
 
+                <android.support.v7.widget.CardView
+                    android:id="@+id/cvElectronics"
                     android:layout_width="95dp"
+
                     android:layout_height="120dp"
-                    android:layout_margin="2dp">
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center">
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="50dp"
@@ -461,15 +471,16 @@
                             tools:text="@string/electronic_label" />
 
 
-
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <android.support.v7.widget.CardView
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:clickable="true"
+                    android:id="@+id/cvHotel"
                     android:layout_width="95dp"
                     android:layout_height="120dp"
-                    android:layout_margin="2dp">
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -494,17 +505,20 @@
 
                     </LinearLayout>
                 </android.support.v7.widget.CardView>
+
                 <android.support.v7.widget.CardView
-                    android:foreground="?android:attr/selectableItemBackground"
-                    android:clickable="true"
+                    android:id="@+id/cvOthers"
                     android:layout_width="95dp"
                     android:layout_height="120dp"
-                    android:layout_margin="2dp">
+                    android:layout_margin="2dp"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:orientation="vertical"
-                        android:gravity="center">
+                        android:gravity="center"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:layout_width="50dp"

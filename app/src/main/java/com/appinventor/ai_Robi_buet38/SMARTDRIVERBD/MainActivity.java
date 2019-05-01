@@ -17,6 +17,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
      CardView cardView,company,uber,uberandprivate,demand,rent;
+     private  CardView cvDress, cvMedical, cvVehicle, cvElectronics, cvHotel, cvOthers;
      Button contact;
 
     @Override
@@ -26,7 +27,12 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
+        cvDress = findViewById(R.id.cvDress);
+        cvMedical = findViewById(R.id.cvMedical);
+        cvVehicle = findViewById(R.id.cvVehicle);
+        cvElectronics = findViewById(R.id.cvElectronics);
+        cvHotel = findViewById(R.id.cvHotel);
+        cvOthers = findViewById(R.id.cvOthers);
 
 
 
@@ -100,6 +106,48 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this,About.class);
+                startActivity(intent);
+            }
+        });
+        cvDress.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,OfferDressActivity.class);
+                startActivity(intent);
+            }
+        });
+        cvMedical.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,OfferMedicalActivity.class);
+                startActivity(intent);
+            }
+        });
+        cvVehicle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,OfferVehicleActivity.class);
+                startActivity(intent);
+            }
+        });
+        cvElectronics.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,OfferElectronicsActivity.class);
+                startActivity(intent);
+            }
+        });
+        cvHotel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,OfferHotelActivity.class);
+                startActivity(intent);
+            }
+        });
+        cvOthers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,OfferOtherActivity.class);
                 startActivity(intent);
             }
         });

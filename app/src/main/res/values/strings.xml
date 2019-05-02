@@ -28,4 +28,7 @@
     <string name="title_activity_offer_dress">OfferDressActivity</string>
     <string name="data_offer_bottom">For getting discount you have to show your discount card also known as  membership card</string>
     <string name="title_activity_offer_medical">OfferMedicalActivity</string>
+    <string name="salary_label">Salary/Month :</string>
+    <string name="education_label">Education :</string>
+    <string name="experience_label">Experience :</string>
 </resources>

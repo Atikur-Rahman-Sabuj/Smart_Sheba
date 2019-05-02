@@ -88,21 +88,22 @@ android:textAlignment="center"
                      <TableRow android:layout_margin="4dp">
 
                          <TextView
-                             android:paddingLeft="2dp"
-                             android:width="130dp"
-                             android:textSize="18sp"
-                             android:layout_weight="1"
-                             android:padding="2dp"
-
-                             android:textColor="#000"
-                             android:textStyle="bold"
                              android:layout_width="wrap_content"
                              android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                             android:width="130dp"
+                             android:padding="2dp"
 
-                             android:text="Salary/Month"
+                             android:paddingLeft="2dp"
+                             android:paddingEnd="10dp"
+                             android:text="@string/salary_label"
+                             android:textAlignment="textEnd"
+
+                             android:textColor="#000"
 
 
-                             />
+                             android:textSize="18sp"
+                             android:textStyle="bold" />
 
                          <TextView
                              android:width="160dp"
@@ -126,19 +127,20 @@ android:textAlignment="center"
                     <TableRow>
 
                         <TextView
-                            android:width="130dp"
-                            android:textSize="18sp"
-                            android:paddingLeft="2dp"
-
-                            android:textColor="#000"
-                            android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
-                            android:text="Education"
                             android:layout_weight="1"
 
-                            />
+                            android:width="130dp"
+                            android:paddingLeft="2dp"
+                            android:paddingEnd="10dp"
+                            android:text="@string/education_label"
+
+                            android:textAlignment="textEnd"
+                            android:textColor="#000"
+
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
 
 
@@ -160,18 +162,19 @@ android:textAlignment="center"
                     <TableRow>
 
                         <TextView
-                            android:width="130dp"
-                            android:textSize="18sp"
-
-                            android:textColor="#000"
-                            android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingLeft="2dp"
-                            android:text="Experience"
-                            android:layout_weight="1"
 
-                            />
+                            android:layout_weight="1"
+                            android:width="130dp"
+                            android:paddingLeft="2dp"
+                            android:paddingEnd="10dp"
+                            android:text="@string/experience_label"
+                            android:textAlignment="textEnd"
+                            android:textColor="#000"
+
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
 
 
@@ -233,21 +236,22 @@ android:textAlignment="center"
                     <TableRow android:layout_margin="4dp">
 
                         <TextView
-                            android:paddingLeft="2dp"
-                            android:width="130dp"
-                            android:textSize="18sp"
-                            android:layout_weight="1"
-                            android:padding="2dp"
-
-                            android:textColor="#000"
-                            android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:width="130dp"
+                            android:padding="2dp"
 
-                            android:text="Salary/Month"
+                            android:paddingLeft="2dp"
+                            android:paddingEnd="10dp"
+                            android:text="@string/salary_label"
+                            android:textAlignment="textEnd"
+
+                            android:textColor="#000"
 
 
-                            />
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:width="160dp"
@@ -271,19 +275,20 @@ android:textAlignment="center"
                     <TableRow>
 
                         <TextView
-                            android:width="130dp"
-                            android:textSize="18sp"
-                            android:paddingLeft="2dp"
-
-                            android:textColor="#000"
-                            android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
-                            android:text="Education"
                             android:layout_weight="1"
 
-                            />
+                            android:width="130dp"
+                            android:paddingLeft="2dp"
+                            android:paddingEnd="10dp"
+                            android:text="@string/education_label"
+
+                            android:textAlignment="textEnd"
+                            android:textColor="#000"
+
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
 
 
@@ -305,18 +310,19 @@ android:textAlignment="center"
                     <TableRow>
 
                         <TextView
-                            android:width="130dp"
-                            android:textSize="18sp"
-
-                            android:textColor="#000"
-                            android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingLeft="2dp"
-                            android:text="Experience"
-                            android:layout_weight="1"
 
-                            />
+                            android:layout_weight="1"
+                            android:width="130dp"
+                            android:paddingLeft="2dp"
+                            android:paddingEnd="10dp"
+                            android:text="@string/experience_label"
+                            android:textAlignment="textEnd"
+                            android:textColor="#000"
+
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
 
 
@@ -377,21 +383,22 @@ android:textAlignment="center"
                     <TableRow android:layout_margin="4dp">
 
                         <TextView
-                            android:paddingLeft="2dp"
-                            android:width="130dp"
-                            android:textSize="18sp"
-                            android:layout_weight="1"
-                            android:padding="2dp"
-
-                            android:textColor="#000"
-                            android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:width="130dp"
+                            android:padding="2dp"
 
-                            android:text="Salary/Month"
+                            android:paddingLeft="2dp"
+                            android:paddingEnd="10dp"
+                            android:text="@string/salary_label"
+                            android:textAlignment="textEnd"
+
+                            android:textColor="#000"
 
 
-                            />
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:width="160dp"
@@ -415,19 +422,20 @@ android:textAlignment="center"
                     <TableRow>
 
                         <TextView
-                            android:width="130dp"
-                            android:textSize="18sp"
-                            android:paddingLeft="2dp"
-
-                            android:textColor="#000"
-                            android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-
-                            android:text="Education"
                             android:layout_weight="1"
 
-                            />
+                            android:width="130dp"
+                            android:paddingLeft="2dp"
+                            android:paddingEnd="10dp"
+                            android:text="@string/education_label"
+
+                            android:textAlignment="textEnd"
+                            android:textColor="#000"
+
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
 
 
@@ -449,18 +457,19 @@ android:textAlignment="center"
                     <TableRow>
 
                         <TextView
-                            android:width="130dp"
-                            android:textSize="18sp"
-
-                            android:textColor="#000"
-                            android:textStyle="bold"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:paddingLeft="2dp"
-                            android:text="Experience"
-                            android:layout_weight="1"
 
-                            />
+                            android:layout_weight="1"
+                            android:width="130dp"
+                            android:paddingLeft="2dp"
+                            android:paddingEnd="10dp"
+                            android:text="@string/experience_label"
+                            android:textAlignment="textEnd"
+                            android:textColor="#000"
+
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
 
 

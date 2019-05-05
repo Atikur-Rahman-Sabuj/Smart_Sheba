@@ -31,4 +31,5 @@
     <string name="salary_label">Salary/Month :</string>
     <string name="education_label">Education :</string>
     <string name="experience_label">Experience :</string>
+    <string name="all_right_reserved">\u00A9 2019 by Smart Sheba LTD, All rights reserved</string>
 </resources>

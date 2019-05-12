@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Smart Driver BD</string>
+    <string name="app_name">Smart Service BD</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -31,5 +31,15 @@
     <string name="salary_label">Salary/Month :</string>
     <string name="education_label">Education :</string>
     <string name="experience_label">Experience :</string>
-    <string name="all_right_reserved">\u00A9 2019 by Smart Sheba LTD, All rights reserved</string>
+    <string name="map_button_text">Locate us on map</string>
+    <string name="all_right_reserved">\u00A9 2013 by Smart Sheba LTD, All rights reserved</string>
+    <string name="driver_service">Driver Services</string>
+    <string name="car_rental_service">Car Rental</string>
+    <string name="home_shifting_service">Home Shifting</string>
+    <string name="office_support_service">Office Support</string>
+    <string name="car_servicing__service">Car Servicing</string>
+    <string name="spare_parts__service">Spare Parts</string>
+    <string name="smart_feri_service">Smart Feri</string>
+    <string name="driving_school_service">Driving School</string>
+    <string name="smart_force_service">Smart Force</string>
 </resources>

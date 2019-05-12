@@ -71,25 +71,25 @@
             android:name=".DriverRegistration"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CarRental"
+            android:name=".ServiceSpartPartActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".DriverDemand"
+            android:name=".ServiceCarServicingActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Uberprivate"
+            android:name=".ServiceOfficeSupportActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UberDriver"
+            android:name=".ServiceHomeShiftingActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CompanyDriver"
+            android:name=".ServiceCarRentalActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".DriverInfo"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PrivateActivity"
+            android:name=".ServiceDriverActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".SpalashScreen"

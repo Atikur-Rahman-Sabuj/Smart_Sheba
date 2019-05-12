@@ -8,27 +8,27 @@
             android:id="@+id/nav_camera"
 
             android:title="Contact Us" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:title="Search Job" />
-        <item
-            android:id="@+id/availabledrivers"
-            android:title="Available Drivers" />
-        <item
-            android:id="@+id/nav_manage"
+        <!--<item-->
+            <!--android:id="@+id/nav_gallery"-->
+            <!--android:title="Search Job" />-->
+        <!--<item-->
+            <!--android:id="@+id/availabledrivers"-->
+            <!--android:title="Available Drivers" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
 
-            android:title="Login" />
+            <!--android:title="Login" />-->
     </group>
     <item android:title="Registration">
         <menu>
-            <item
-                android:id="@+id/_driverregistration"
+            <!--<item-->
+                <!--android:id="@+id/_driverregistration"-->
 
-                android:title="Driver Registration" />
-            <item
-                android:id="@+id/ownerregistration"
+                <!--android:title="Driver Registration" />-->
+            <!--<item-->
+                <!--android:id="@+id/ownerregistration"-->
 
-                android:title="Owner Registration" />
+                <!--android:title="Owner Registration" />-->
 
             <item
                 android:id="@+id/memberregistration"

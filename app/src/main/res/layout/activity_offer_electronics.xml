@@ -55,24 +55,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    android:paddingLeft="5dp"
-                    android:paddingRight="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
                     android:text="You will get 5% to 20% discount for any  Electronics product  from Dhaka city. we have more than 100 Electronic Shop  from where you will get discount for services.  for more details please contact at 01 17 22555 222"
-                    android:textAlignment="center"
+                    android:textAlignment="textStart"
                     android:textColor="#272936"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="20dp"
-                    android:paddingLeft="5dp"
-                    android:paddingRight="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
                     android:text="@string/data_offer_bottom"
-                    android:textAlignment="center"
+                    android:textAlignment="textStart"
                     android:textColor="#272936"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
             </LinearLayout>
         </LinearLayout>
 

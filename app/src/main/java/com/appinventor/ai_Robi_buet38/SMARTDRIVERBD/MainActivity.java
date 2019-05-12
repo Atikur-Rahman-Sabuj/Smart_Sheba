@@ -16,7 +16,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-     CardView cardView,company,uber,uberandprivate,demand,rent;
+     CardView cvDriverService,cvCarRentalService, cvHomeShiftingService, cvOfficeSupportService, cvCarServicingService, cvSparePartService;
      private  CardView cvDress, cvMedical, cvVehicle, cvElectronics, cvHotel, cvOthers;
      Button contact;
 
@@ -48,56 +48,55 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
 
-        cardView=findViewById(R.id.privatecard);
-        company=findViewById(R.id.companycard);
-        uber=findViewById(R.id.ubercard);
-        uberandprivate=findViewById(R.id.uberandprivatecard);
-
-        demand=findViewById(R.id.demandcard);
-        rent=findViewById(R.id.rentcard);
-        cardView.setOnClickListener(new View.OnClickListener() {
+        cvDriverService =findViewById(R.id.drivercard);
+        cvCarRentalService=findViewById(R.id.carrentalcard);
+        cvHomeShiftingService =findViewById(R.id.homeshiftingcard);
+        cvOfficeSupportService =findViewById(R.id.officesupportcard);
+        cvCarServicingService =findViewById(R.id.carservicingcard);
+        cvSparePartService =findViewById(R.id.sparepartscard);
+        cvDriverService.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,PrivateActivity.class);
+                Intent intent=new Intent(MainActivity.this, ServiceDriverActivity.class);
                 startActivity(intent);
             }
         });
 
-        company.setOnClickListener(new View.OnClickListener() {
+        cvCarRentalService.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,CompanyDriver.class);
+                Intent intent=new Intent(MainActivity.this, ServiceCarRentalActivity.class);
                 startActivity(intent);
             }
         });
 
-        uber.setOnClickListener(new View.OnClickListener() {
+        cvHomeShiftingService.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,UberDriver.class);
+                Intent intent=new Intent(MainActivity.this, ServiceHomeShiftingActivity.class);
                 startActivity(intent);
             }
         });
-        uberandprivate.setOnClickListener(new View.OnClickListener() {
+        cvOfficeSupportService.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,Uberprivate.class);
-                startActivity(intent);
-            }
-        });
-
-        demand.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,DriverDemand.class);
+                Intent intent=new Intent(MainActivity.this, ServiceOfficeSupportActivity.class);
                 startActivity(intent);
             }
         });
 
-        rent.setOnClickListener(new View.OnClickListener() {
+        cvCarServicingService.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(MainActivity.this,CarRental.class);
+                Intent intent=new Intent(MainActivity.this, ServiceCarServicingActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cvSparePartService.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this, ServiceSpartPartActivity.class);
                 startActivity(intent);
             }
         });
@@ -199,32 +198,32 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
 
-            Intent aintent= new Intent(MainActivity.this, About.class);
+            Intent aintent = new Intent(MainActivity.this, About.class);
             startActivity(aintent);
-
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-            Intent ointent= new Intent(MainActivity.this, OwnerInfo.class);
-            startActivity(ointent);
-
-        } else if (id == R.id.availabledrivers) {
-            Intent intent= new Intent(MainActivity.this, DriverInfo.class);
-            startActivity(intent);
-        } else if (id == R.id.nav_manage) {
-
-            Intent intent= new Intent(MainActivity.this, LoginActivity.class);
-            startActivity(intent);
-
-        } else if (id == R.id._driverregistration) {
-            Intent intent=new Intent(MainActivity.this,DriverRegistration.class);
-            startActivity(intent);
-
-        } else if (id == R.id.ownerregistration) {
-            Intent intent2=new Intent(MainActivity.this,OwnerRegistration.class);
-            startActivity(intent2);
-
         }
+            // Handle the camera action
+//        } else if (id == R.id.nav_gallery) {
+//
+//            Intent ointent= new Intent(MainActivity.this, OwnerInfo.class);
+//            startActivity(ointent);
+//
+//        } else if (id == R.id.availabledrivers) {
+//            Intent intent= new Intent(MainActivity.this, DriverInfo.class);
+//            startActivity(intent);
+//        } else if (id == R.id.nav_manage) {
+//
+//            Intent intent= new Intent(MainActivity.this, LoginActivity.class);
+//            startActivity(intent);
+//
+//        } else if (id == R.id._driverregistration) {
+//            Intent intent=new Intent(MainActivity.this,DriverRegistration.class);
+//            startActivity(intent);
+//
+//        } else if (id == R.id.ownerregistration) {
+//            Intent intent2=new Intent(MainActivity.this,OwnerRegistration.class);
+//            startActivity(intent2);
+//
+//        }
         else if (id == R.id.memberregistration) {
             Intent intentm=new Intent(MainActivity.this,MemberRegistration.class);
             startActivity(intentm);

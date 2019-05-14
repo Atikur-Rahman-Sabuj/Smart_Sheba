@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
      CardView cvDriverService,cvCarRentalService, cvHomeShiftingService, cvOfficeSupportService, cvCarServicingService, cvSparePartService;
      private  CardView cvDress, cvMedical, cvVehicle, cvElectronics, cvHotel, cvOthers;
+     private CardView cvFeri, cvDrivingTraining, cvSecutityService;
      Button contact;
 
     @Override
@@ -33,7 +34,9 @@ public class MainActivity extends AppCompatActivity
         cvElectronics = findViewById(R.id.cvElectronics);
         cvHotel = findViewById(R.id.cvHotel);
         cvOthers = findViewById(R.id.cvOthers);
-
+        cvFeri = findViewById(R.id.cvFeri);
+        cvDrivingTraining = findViewById(R.id.cvDrivingTraining);
+        cvSecutityService = findViewById(R.id.cvSecutityService);
 
 
 
@@ -147,6 +150,27 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this,OfferOtherActivity.class);
+                startActivity(intent);
+            }
+        });
+        cvFeri.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,FeriServiceActivity.class);
+                startActivity(intent);
+            }
+        });
+        cvDrivingTraining.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,DrivingTrainingActivity.class);
+                startActivity(intent);
+            }
+        });
+        cvSecutityService.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,SecurityServiceActivity.class);
                 startActivity(intent);
             }
         });
